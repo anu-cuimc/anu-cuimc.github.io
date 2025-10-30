@@ -1,16 +1,19 @@
-name: "Yay internet!"
+name: "p8105_hw4_as7923"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Resume"
+    - text: "PROBLEM 1 (RESUME)"
       href: resume.html
-    - text: "Flex Dashboard"
+    - text: "PROBLEM 2 (FLEX DASHBOARD)"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<as7923@cumc.columbia.edu>
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/singh-anupriya/
     - icon: fa-github fa-lg
       href: http://github.com/anu-cuimc/
+      
 output:
   html_document:
-    theme: cerulean
+    theme: darkly

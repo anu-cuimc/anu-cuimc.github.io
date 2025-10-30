@@ -1,106 +1,122 @@
 ---
-title: "RESUME"
+title: "PROBLEM 1 (RESUME)"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
-## EDUCATION
-### Bachelor of Science in Statistics, Minor in Psychology                
-University of Saskatchewan, Saskatoon, SK                                                                September 2021 – Present
-	Academic Achievements: James G. and Edith Duthie Memorial Scholarship ($6,500), University of Saskatchewan Honours Scholarship ($1,500–$2,500), Dean’s Honour List (2021–2024)
-	Relevant Coursework: Mathematical Statistics, Experimental Design, Sampling Techniques, Time Series Analysis, Multivariate Analysis, Probability Theory, Linear Algebra, Vector Calculus
 
-### Bachelor of Science (Honours) in Molecular Biology & Biotechnology     
-University of Toronto, Toronto, ON                                                                          September 2017 – June 2021
-	Academic Achievements: UTSC Dean’s List (2018)
-	Relevant Coursework: Advanced Molecular Biology Laboratory
+## ANU SINGH
+as7923@cumc.columbia.edu | +1 (226) 260-1600 | New York, NY
 
-## RESEARCH EXPERIENCE
-### Research Technician | AbuArish Lab 
-University of Saskatchewan, Saskatoon, SK                                                      September 2023 – January 2024
-	Analyzed immunofluorescence microscopy data using ImageJ to support a graduate student's thesis research on cellular processes 
-	Developed R scripts for statistical analysis, including t-tests and creating clear graphs with error bars and significance indicators 
-	Contributed to data presented at a graduate conference, improved quality and clarity of statistical reporting
+***
+### EDUCATION
+***
+#### Masters of Science in Epidemiology (Candidate)
+*Columbia University Mailman School of Public Health, New York, NY | August 2025 - Present*
 
-### NSERC USRA Research Assistant | AbuArish Lab
-University of Saskatchewan, Saskatoon, SK                                                                   May 2023 – August 2023
-	Investigated AQP-5 distribution and translocation mechanisms in bronchial epithelial cells to better understand water homeostasis regulation in lung epithelium
-	Performed advanced imaging techniques including confocal microscopy, immunofluorescent staining, and maintained cell cultures for experimental analysis
-	Extracted and analyzed quantitative fluorescence data using ImageJ, and generated comparative visualizations between control and experimental conditions
-	Created comprehensive standard operating procedures (SOPs) for both current and future laboratory personnel, ensuring consistency and reproducible results
-	Provided hands-on training to new lab members on essential laboratory techniques and protocols
+* **Expected Graduation**: May 2027
 
-### Research Student | Experimental Mathematics Lab
-Pacific Institute for the Mathematical Sciences (PIMS)                                         November 2022 – April 2023
-	Participated in a mentored research program exploring chip-firing games, and their applications in combinatorics
-	Gathered research findings into an academic poster, final report, and delivered a conference presentation at the PIMS VXML Conference (April 2023)
-	Developed foundational skills in mathematical theory, academic writing, and scientific communication
-PROFESSIONAL EXPERIENCE
-Data Scientist (Co-op Student) 
-Ontario Ministry of Health, Toronto, ON                                                             September 2019 – August 2020
-	Conducted analyses using health databases (DAD and NACRS) to support COVID-19 response strategies and ongoing epidemiological initiatives
-	Modelled and developed outbreak risk scores for all 626 long-term care facilities in Ontario during the early pandemic, helping guide targeted intervention efforts
-	Developed visualizations for forecasting models of chronic conditions (CHF, COPD, diabetes) to support provincial disease surveillance
-	Prepared executive-level presentations on Reactivation Care Centre (RCCs), comparing patient outcomes between RCC and acute care settings
-	Conducted thorough code reviews and quality checks to maintain accuracy and reliability in health data processing
+<br>
 
-## HEALTHCARE & COMMUNITY HEALTH EXPERIENCE
-### Outreach & Clinical Team Leader 
-Student Wellness Initiative Toward Community Health (SWITCH), Saskatoon, SK    October 2023 – Present
-	Supervise a 15-person interdisciplinary team serving 100+ clients per shift 
-	Oversee comprehensive outreach services including meal distribution, programming, childcare, tax assistance, and community cleanup initiatives 
-	Perform patient intakes, and prepare examination rooms as part of clinical responsibilities
-	 Ensure delivery of patient-centered care while maintaining strict adherence to confidentiality protocols and ethical guidelines 
-	Train new volunteers and implement effective conflict resolution strategies in a dynamic community health environment
+#### Bachelor of Science in Statistics, Minor in Psychology                
+*University of Saskatchewan, Saskatoon, SK | September 2021 – June 2025*
 
-### Hospice Volunteer
-Prairie Hospice, Saskatoon, SK                                                                                       November 2023 – Present
-	Provide emotional support, companionship, and respite care to hospice clients and their caregivers 
-	Completed comprehensive training in end-of-life support and empathetic communication techniques 
-	Foster meaningful relationships with clients while supporting dignity and quality of life during their hospice journey
+* **Academic Achievements**: James G. and Edith Duthie Memorial Scholarship ($6,500), University of Saskatchewan Honours Scholarship ($1,500–$2,500), Dean’s Honour List (2021–2024)
 
-## HEALTH PROMOTION & LEADERSHIP
-### Health Promotion Volunteer & Campaign Organizer
-Peer Health, University of Saskatchewan, Saskatoon, SK                                    September 2021 – April 2023
-	Designed wellness materials distributed to 1,000+ students through social media platforms
-	Engaged directly with 100+ students at in-person health promotion events across campus
-	In 2023, spearheaded a substance use awareness campaign (Thinking About My Drinking), reaching record 32 participants through weekly reflections and discussions
-	Developed comprehensive skills in health communication and advocacy
+<br>
 
-### Volunteer Notetaker
-University of Saskatchewan, Saskatoon, SK                                                                 January 2022 – April 2024
-	Produced comprehensive course notes for students registered with Accessibility Services
-	Enhanced educational accessibility by supporting peers with diverse learning needs 
-	Demonstrated strong organizational skills and meticulous attention to detail
+#### Bachelor of Science (Honours) in Molecular Biology & Biotechnology     
+*University of Toronto, Toronto, ON | September 2017 – June 2021*
 
-### Volunteer Tutor 
-United for Literacy (formerly Frontier College), Toronto, ON                                    October 2020 – April 2022
-•	Provided personalized academic support to 10+ K-12 students from diverse backgrounds across multiple subject areas
-•	Developed tailored teaching strategies to address individual learning needs and goals
-•	Strengthened communication skills and instructional techniques through regular student engagement
+* **Academic Achievements**: UTSC Dean’s List (2018)
 
-### Vice President External
-UTSC Pre-Med Society, University of Toronto, ON                                                      October 2018 – April 2019
-•	Led health education initiatives and managed relationships with external partners and organizations
-•	Organized and facilitated programming that engaged over 50 pre-medical students in health-related activities
+***
+### RESEARCH EXPERIENCE
+***
 
-## TECHNICAL SKILLS
+#### Research Technician | AbuArish Lab 
+*University of Saskatchewan, Saskatoon, SK | September 2023 – January 2024*
 
-* Programming & Data Analysis: SAS (Intermediate, Certified), R (Beginner), Python (Beginner), ImageJ (Beginner), Microsoft Excel/Office Suite (Proficient)
-* Statistical Techniques: Linear and logistic regression, time series analysis, experimental design, multivariate analysis, hypothesis testing, Bayesian inference
-* Mathematical & Probability Foundations: Probability theory, sampling techniques, confidence intervals, maximum likelihood estimation (MLE), moment generating functions, probability distributions (normal, Poisson, gamma, binomial, chi-square, etc.)
-* Laboratory Techniques: Confocal microscopy, immunostaining, polymerase chain reaction (PCR), gel electrophoresis (agarose and SDS-PAGE), spectrophotometry, western blotting, cell culture
+* Analyzed immunofluorescence microscopy data using ImageJ to support a graduate student's thesis research on cellular processes 
+* Developed R scripts for statistical analysis, including t-tests and creating clear graphs with error bars and significance indicators 
+* Contributed to data presented at a graduate conference, improved quality and clarity of statistical reporting
 
-## CERTIFICATIONS
+<br>
+
+#### NSERC USRA Research Assistant | AbuArish Lab
+*University of Saskatchewan, Saskatoon, SK | May 2023 – August 2023*
+
+* Investigated AQP-5 distribution and translocation mechanisms in bronchial epithelial cells to better understand water homeostasis regulation in lung epithelium
+* Performed advanced imaging techniques including confocal microscopy, immunofluorescent staining, and maintained cell cultures for experimental analysis
+* Extracted and analyzed quantitative fluorescence data using ImageJ, and generated comparative visualizations between control and experimental conditions
+* Created comprehensive standard operating procedures (SOPs) for both current and future laboratory personnel, ensuring consistency and reproducible results
+* Provided hands-on training to new lab members on essential laboratory techniques and protocols
+
+<br>
+
+#### Research Student | Experimental Mathematics Lab
+*Pacific Institute for the Mathematical Sciences (PIMS) | November 2022 – April 2023*
+
+* Participated in a mentored research program exploring chip-firing games, and their applications in combinatorics
+* Gathered research findings into an academic poster, final report, and delivered a conference presentation at the PIMS VXML Conference (April 2023)
+* Developed foundational skills in mathematical theory, academic writing, and scientific communication
+
+***
+### PROFESSIONAL EXPERIENCE
+***
+
+#### Hospice Volunteer
+*Prairie Hospice, Saskatoon, SK | November 2023 – April 2025* 
+
+* Provided emotional support, companionship, and respite care to hospice clients and their caregivers 
+* Completed comprehensive training in end-of-life support and empathetic communication techniques 
+* Fostered meaningful relationships with clients while supporting dignity and quality of life during their hospice journey
+
+<br>
+
+#### Outreach & Clinical Team Leader 
+*Student Wellness Initiative Toward Community Health (SWITCH), Saskatoon, SK | October 2023 – April 2025*
+
+* Supervised a 15-person interdisciplinary team serving 100+ clients per shift 
+* Oversaw comprehensive outreach services including meal distribution, programming, childcare, tax assistance, and community cleanup initiatives 
+* Performed patient intakes, and prepare examination rooms as part of clinical responsibilities
+* Ensure delivery of patient-centered care while maintaining strict adherence to confidentiality protocols and ethical guidelines 
+* Trained new volunteers and implement effective conflict resolution strategies in a dynamic community health environment
+
+<br>
+
+#### Data Scientist (Co-op Student) 
+*Ontario Ministry of Health, Toronto, ON | September 2019 – August 2020*
+
+* Conducted analyses using health databases (DAD and NACRS) to support COVID-19 response strategies and ongoing epidemiological initiatives
+* Modelled and developed outbreak risk scores for all 626 long-term care facilities in Ontario during the early pandemic, helping guide targeted intervention efforts
+* Developed visualizations for forecasting models of chronic conditions (CHF, COPD, diabetes) to support provincial disease surveillance
+* Prepared executive-level presentations on Reactivation Care Centre (RCCs), comparing patient outcomes between RCC and acute care settings
+* Conducted thorough code reviews and quality checks to maintain accuracy and reliability in health data processing
+
+***
+### TECHNICAL SKILLS
+***
+
+* **Programming & Data Analysis**: SAS (Intermediate, Certified), R (Beginner), Python (Beginner), ImageJ (Beginner), Microsoft Excel/Office Suite (Proficient)
+* **Statistical Techniques**: Linear and logistic regression, time series analysis, experimental design, multivariate analysis, hypothesis testing, Bayesian inference
+* **Mathematical & Probability Foundations**: Probability theory, sampling techniques, confidence intervals, maximum likelihood estimation (MLE), moment generating functions, probability distributions (normal, Poisson, gamma, binomial, chi-square, etc.)
+* **Laboratory Techniques**: Confocal microscopy, immunostaining, polymerase chain reaction (PCR), gel electrophoresis (agarose and SDS-PAGE), spectrophotometry, western blotting, cell culture
+
+***
+### CERTIFICATIONS
+***
 
 * Naloxone Training and Administration (2025)
 * Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: 2022) (2023)
 * SAS® Programming 1: Essentials (2019)
 * SAS® Programming 2: Data Manipulation Techniques (2019)
 
-## AWARDS & SCHOLARSHIPS
+***
+### AWARDS & SCHOLARSHIPS
+***
 
 * NSERC Undergraduate Student Research Award, Natural Sciences and Engineering Research Council ($6,000; 2023)
 * Ezekiel-Marche Scholarship, University of Saskatchewan ($1,000; 2023–2025)
