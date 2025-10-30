@@ -6,8 +6,9 @@ output:
     toc_float: true
 ---
 
-* [Resume](resume.html)
-* [Flex Dashboard](dashboard.html)
+<br>
 
+## ABOUT ME
+Hi! My name is Anu, and I am a first-year Master of Science student in Epidemiology at Mailman. Aside from public health, I am particularly interested in developing strong technical skills in various programming languages, and that is why I am taking P8105 this semester. Welcome to my website! Check out my resume to learn more about my background, or reach out via the links in the navigation!
 
-
+![](./images/mailman.png)
