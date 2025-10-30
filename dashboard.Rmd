@@ -29,18 +29,14 @@ Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart A
-The following three charts were created by taking a random sample of 10,000 observations from the Instacart data. Click on "Source Code" to learn more about how each visualization was produced.
-
-<br> 
-
 ```{r}
-# Filtering for top 20 products bought and creating a bar plot
+# Filtering for top 15 products bought and creating a bar plot
 instacart_filtered %>%
   count(product_name, sort = TRUE) %>%
-  head(20) %>%
+  head(15) %>%
   mutate(product_name = fct_reorder(product_name, n)) %>% 
   plot_ly(x = ~n, y = ~product_name, type = "bar", marker = list(color = ~n, colorscale = "Viridis")) %>%
-  layout(title = "Top 20 most ordered products",
+  layout(title = "Top 15 most ordered products",
          xaxis = list(title = "No. of orders"),
          yaxis = list(title = "Product"))
 ```
