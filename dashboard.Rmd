@@ -1,9 +1,91 @@
 ---
-title: "FLEX DASHBOARD"
-output:
-  html_document:
-    toc: true
-    toc_float: true
+title: "INSTACART DASHBOARD"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
 ---
 
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
 
+library(flexdashboard)
+```
+
+```{r}
+# Loading the data
+data("instacart")
+
+# Filtering data (sample 10,000 rows)
+set.seed(7923) # using UNI as seed
+instacart_filtered = instacart %>%
+  sample_n(10000)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+```{r}
+# Filtering for top 20 products bought and creating a bar plot
+instacart_filtered %>%
+  count(product_name, sort = TRUE) %>%
+  head(20) %>%
+  mutate(product_name = fct_reorder(product_name, n)) %>% 
+  plot_ly(x = ~n, y = ~product_name, type = "bar", marker = list(color = ~n, colorscale = "Viridis")) %>%
+  layout(title = "Top 20 most ordered products",
+         xaxis = list(title = "No. of orders"),
+         yaxis = list(title = "Product"))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+# Creating a line plot for average no. of items bought at each hour of the day
+instacart_filtered %>%
+  group_by(order_id, order_hour_of_day) %>% # grouping each item by order ID
+  summarise(items_in_order = n(), .groups = 'drop') %>%
+  group_by(order_hour_of_day) %>%
+  summarise(avg_items = mean(items_in_order), .groups = 'drop') %>%  # finding mean items bought every hour
+  plot_ly(x = ~order_hour_of_day, 
+          y = ~avg_items, 
+          type = 'scatter',
+          mode = 'lines+markers',
+        line = list(color = 'black', width = 3),
+        marker = list(size = 10, color = 'black')) %>%
+  layout(title = "Average items per order by hour of day",
+         xaxis = list(title = "Hour of day (24-hour time)", dtick = 2),
+         yaxis = list(title = "Average no. of items"))
+```
+
+### Chart C
+
+```{r}
+instacart_filtered %>%
+  mutate(day_name = case_when(
+    order_dow == 0 ~ "Sunday",
+    order_dow == 1 ~ "Monday",
+    order_dow == 2 ~ "Tuesday",
+    order_dow == 3 ~ "Wednesday",
+    order_dow == 4 ~ "Thursday",
+    order_dow == 5 ~ "Friday",
+    order_dow == 6 ~ "Saturday"
+  )) %>% # assigning week names to codes
+  mutate(day_name = factor(day_name, levels = c("Sunday", "Monday", "Tuesday", 
+                                                  "Wednesday", "Thursday", "Friday", 
+                                                  "Saturday"))) %>%  # ordering data in order of week 
+  plot_ly(x = ~day_name, 
+        y = ~order_hour_of_day, 
+        type = 'box',
+        color = ~day_name,
+        colors = "viridis") %>%
+  layout(title = "Order distribution by hour for each day of week",
+         xaxis = list(title = "Day"),
+         yaxis = list(title = "Hour of day (24-hour time)"))
+```

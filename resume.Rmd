@@ -6,6 +6,7 @@ output:
     toc_float: true
 ---
 
+<br>
 
 ## ANU SINGH
 as7923@cumc.columbia.edu | +1 (226) 260-1600 | New York, NY
@@ -13,7 +14,7 @@ as7923@cumc.columbia.edu | +1 (226) 260-1600 | New York, NY
 ***
 ### EDUCATION
 ***
-#### Masters of Science in Epidemiology (Candidate)
+#### Master of Science in Epidemiology (Candidate)
 *Columbia University Mailman School of Public Health, New York, NY | August 2025 - Present*
 
 * **Expected Graduation**: May 2027
@@ -82,7 +83,7 @@ as7923@cumc.columbia.edu | +1 (226) 260-1600 | New York, NY
 * Supervised a 15-person interdisciplinary team serving 100+ clients per shift 
 * Oversaw comprehensive outreach services including meal distribution, programming, childcare, tax assistance, and community cleanup initiatives 
 * Performed patient intakes, and prepare examination rooms as part of clinical responsibilities
-* Ensure delivery of patient-centered care while maintaining strict adherence to confidentiality protocols and ethical guidelines 
+* Ensured delivery of patient-centered care while maintaining strict adherence to confidentiality protocols and ethical guidelines 
 * Trained new volunteers and implement effective conflict resolution strategies in a dynamic community health environment
 
 <br>

@@ -1,11 +1,11 @@
 name: "p8105_hw4_as7923"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "HOME"
   right:
     - text: "PROBLEM 1 (RESUME)"
       href: resume.html
-    - text: "PROBLEM 2 (FLEX DASHBOARD)"
+    - text: "PROBLEM 2 (INSTACART DASHBOARD)"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<as7923@cumc.columbia.edu>
